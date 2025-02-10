@@ -1,0 +1,83 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIhSkbIYc4tCCJqUgpZelNiTaenRFIgOOGbxHgKf4Afxiziy2CamCVJheKLR6BHwMIoO6J0ELt7DB4kpyus6bFSJJxqxAK9wNr66D0jPOp54MDO-BjAoFiUAYYjzpkeEOgAckxYsjwsrhAEf7kekQM-9yGBn9uQYcxLxPgGgUG6IMurLBhVpYQTwejcQ/s1600/Abstract-mesh-background-3840x2160.png");
+  color: #333;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Section styles */
+section {
+  margin: 20px;
+}
+
+/* Unordered list styles */
+.unordered-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Ordered list styles */
+.ordered-list {
+  padding-left: 20px;
+}
+
+/* Button styles */
+.btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Button active effect */
+.btn:active {
+  background-color: #004085;
+}
+
+/* Table styles */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styles */
+.styled-table th,
+.styled-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #ddd;
+}
